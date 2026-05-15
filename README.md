@@ -1,4 +1,4 @@
-# PCB Heater Thermal Distribution Experiment
+<img width="1200" height="828" alt="Screenshot 2026-05-15 095609" src="https://github.com/user-attachments/assets/ef72566d-13c9-4d93-8e4e-a50194e3c401" /><img width="1155" height="621" alt="Screenshot 2026-05-15 095525" src="https://github.com/user-attachments/assets/1eaf4d5d-bfbe-434a-a7da-16de45237343" /># PCB Heater Thermal Distribution Experiment
 Custom High-Power PCB Heater for Industrial, Embedded, and Thermal Research Applications
 
 ---
@@ -51,8 +51,34 @@ The project evolved through several prototype stages:
 
 ---
 
+# Experimental Design Philosophy
+
+The project focused on practical engineering experimentation rather than theoretical simulation alone.
+
+Design iterations were evaluated through physical prototype testing, thermal observations, and power behavior analysis to better understand real-world thermal propagation characteristics.
+
+The development process emphasized:
+
+- iterative hardware prototyping
+- thermal behavior observation
+- experimental validation
+- current distribution analysis
+- practical thermal optimization
+- real-world engineering constraints
+
+
 # Heater Structure
 
+The heater structure was designed using segmented serpentine trace routing to experimentally evaluate:
+
+- thermal propagation behavior
+- localized hot spot reduction
+- current distribution balancing
+- copper heat spreading
+- trace density effects
+- thermal uniformity optimization
+
+Multiple routing geometries and trace spacing configurations were tested during the design iteration process.
 The heater structure was designed using custom PCB trace geometries to improve thermal spreading characteristics.
 
 Key design areas included:
@@ -66,7 +92,6 @@ Key design areas included:
 ---
 
 # PCB Construction
-
 The final prototype utilized 2 oz copper PCB construction to improve:
 
 - current handling capability
@@ -74,6 +99,35 @@ The final prototype utilized 2 oz copper PCB construction to improve:
 - heat distribution stability
 - power transfer efficiency
 - thermal robustness under high-current operation
+
+
+# Rounting Optimization Strategy
+
+Several PCB routing structures were experimentally developed to improve thermal stability and reduce uneven heat concentration observed in early commercial flat heater platforms.
+
+The design evolution focused on:
+
+- segmented heating zones
+- trace spacing optimization
+- current path balancing
+- copper distribution strategy
+- thermal propagation efficiency
+
+Complete segmented PCB heater layout used for thermal distribution experiments.
+<img width="627" height="843" alt="PCB1" src="https://github.com/user-attachments/assets/7377e305-fc03-4b4f-a9ea-db27dc5dfc78" />
+
+Transition region between segmented heater zones designed to study thermal balancing behavior.
+<img width="1197" height="828" alt="PCB2" src="https://github.com/user-attachments/assets/21357c4d-4626-419d-9312-374e9ec38072" />
+
+Close-up view of trace routing geometry and spacing optimization.
+<img width="1200" height="828" alt="PCB3" src="https://github.com/user-attachments/assets/7bf69e0c-0e18-4780-9abe-95f33c16f307" />
+<img width="1155" height="621" alt="PCB5" src="https://github.com/user-attachments/assets/4cadc67e-6f8d-4124-b212-80ab6fe3f685" />
+
+High-current distribution path designed to reduce resistive power loss and improve current delivery stability.
+<img width="1200" height="822" alt="PCB4" src="https://github.com/user-attachments/assets/2bbc12c6-0fb8-4d0f-90f2-852c11faaa0b" />
+
+Experimental thermal platform developed to investigate thermal propagation and power distribution behavior in high-current PCB heater systems.
+
 
 ---
 
@@ -137,7 +191,7 @@ Future versions may include additional thermal camera measurements and temperatu
 
 
 ## Power Electronics
-[Insert Images]
+MOSFET Low RDS ON
 
 ---
 
